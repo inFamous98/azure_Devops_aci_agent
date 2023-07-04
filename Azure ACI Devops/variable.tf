@@ -18,3 +18,15 @@ variable "agents" {
     port    = number
   }))
 }
+
+variable "azure_devops_org_name" {
+  description = "The name of the Azure DevOps organization."
+  type        = string
+  default     = ""
+}
+
+variable "azure_devops_personal_access_token" {
+  description = "The personal access token for Azure DevOps."
+  type        = string
+  default     = ""
+}
