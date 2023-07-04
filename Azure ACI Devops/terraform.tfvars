@@ -17,3 +17,5 @@ agents = {
     port    = 8080
   }
 }
+azure_devops_org_name              = "DEVOPS_ORG_NAME"
+azure_devops_personal_access_token = "DEVOPS_PERSONAL_ACCESS_TOKEN"
